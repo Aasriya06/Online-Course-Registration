@@ -5,7 +5,7 @@ registrations = []
 @app.route('/')
 def home():
     return '''
-    <h2>Online Student Course Registration</h2>
+    <option>Artificial Intelligence</option>
     <form action="/register" method="post">
         Student Name: <input name="name" required><br><br>
         Roll No: <input name="roll" required><br><br>
